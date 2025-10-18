@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoffeeTime - Ana Sayfa</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <nav>
+      <h1>CoffeeTime</h1>
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="menu.html">Menü</a></li>
+        <li><a href="about.html">Hakkımızda</a></li>
+        <li><a href="contact.html">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO / SLIDER -->
+  <section class="hero-slider">
+    <div class="slides">
+      <div class="slide active">
+        <img src="images/cafe1.jpg" alt="Cafeterya 1">
+      </div>
+      <div class="slide">
+        <img src="images/cafe2.jpg" alt="Cafeterya 2">
+      </div>
+      <div class="slide">
+        <img src="images/cafe3.jpg" alt="Cafeterya 3">
+      </div>
+      <div class="slide">
+        <img src="images/cafe4.jpg" alt="Cafeterya 4">
+      </div>
+      <div class="slide">
+        <img src="images/cafe5.jpg" alt="Cafeterya 5">
+      </div>
+    </div>
+
+    <!-- Slider Butonları -->
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+     <!-- Navigasyon Noktaları / Dots -->
+  <div class="slider-dots"></div>
+  </section>
+
+  <!-- CTA Buton -->
+  <section class="hero-cta">
+    <button onclick="goToMenu()">Menümüze Göz At</button>
+  </section>
+
+  <!-- ÖNE ÇIKAN HİZMETLER / ÜRÜNLER -->
+<section class="features">
+  <h2>Öne Çıkan Ürünlerimiz</h2>
+  <div class="feature-items">
+    <div class="feature">
+      <img src="images/coffee_cup.jpg" alt="Kahve">
+      <h4>Lezzetli Kahveler</h4>
+      <p>Taze çekirdeklerden hazırlanan kahvelerimizle güne enerjik başlayın.</p>
+    </div>
+    <div class="feature">
+      <img src="images/cake.jpg" alt="Tatlılar">
+      <h4>Tatlılar ve Kekler</h4>
+      <p>Ev yapımı tatlılarımızla kahvenize eşlik eden lezzetler.</p>
+    </div>
+    <div class="feature">
+      <img src="images/tea.jpg" alt="Çay">
+      <h4>Farklı Çay Seçenekleri</h4>
+      <p>Geleneksel ve aromalı çay çeşitlerimizle rahatlayın.</p>
+    </div>
+    <div class="feature">
+      <img src="images/smoothie.jpg" alt="Smoothie">
+      <h4>Taze Smoothieler</h4>
+      <p>Mevsim meyveleriyle hazırlanan enerji dolu smoothieler.</p>
+    </div>
+    <div class="feature">
+      <img src="images/sandwich.jpg" alt="Sandviç">
+      <h4>Lezzetli Sandviçler</h4>
+      <p>Günün her saati için hafif ve lezzetli atıştırmalıklar.</p>
+    </div>
+    <div class="feature">
+      <img src="images/dessert.jpg" alt="Tatlı Çeşitleri">
+      <h4>Özel Tatlı Çeşitleri</h4>
+      <p>Şefimizin özel tarifleriyle hazırlanmış tatlı seçenekleri.</p>
+    </div>
+  </div>
+</section>
+
+  <!-- KISA HAKKIMIZDA -->
+  <section class="home-about">
+    <div class="about-text">
+      <h2>CoffeeTime’a Hoşgeldiniz!</h2>
+      <p>Lezzetli kahvelerimiz, sıcak atmosferimiz ve kaliteli hizmetimizle gününüze keyif katıyoruz.  
+      Daha fazla bilgi için Hakkımızda sayfamızı ziyaret edin.</p>
+      <button onclick="location.href='about.html'">Hakkımızda</button>
+    </div>
+    <div class="about-img">
+      <img src="images/cafe_interior.jpg" alt="Cafe İç Mekan">
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <p>📍 Adres: İstanbul, Kadıköy</p>
+      <p>📞 Tel: 0555 123 45 67</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+      <p>© 2025 CoffeeTime. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
